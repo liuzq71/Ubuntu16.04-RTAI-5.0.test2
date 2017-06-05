@@ -1,7 +1,7 @@
 # Ubuntu16.04-RTAI-5.0.test2
 
--Download and Unzip-
-	cd /usr/src
+-Download and Unzip-\n
+	cd /usr/src\n
 	curl -L --insecure https://www.rtai.org/userfiles/downloads/RTAI/rtai-5.0-test2.tar.bz2 | tar xj
 	curl -L https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.18.20.tar.xz | tar xJ
 	curl -L http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.20-vivid/linux-image-3.18.20-031820-generic_3.18.20-031820.201508081633_i386.deb -o linux-image-3.18.20-generic-i386.deb
