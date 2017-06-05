@@ -28,7 +28,7 @@
 	make menuconfig
 	/*Set up the kernel settings as follows:*/
 	Enable Loadable Module Support
-					-> Module Versioning Support = DISABLE IT
+			-> Module Versioning Support = DISABLE IT
 	Processor type and features
 			-> SMT (Hyperthreading) scheduler support = DISABLE IT
 	Power Management and ACPI options
@@ -38,7 +38,7 @@
 			
 ## -Build-
 	make -j `getconf _NPROCESSORS_ONLN` deb-pkg LOCALVERSION=-rtai 
-	Install:
+	/*Install:*/
 	dpkg -i ../linux-image-3.18.20-rtai_3.18.20-rtai-1_i386.deb
 	dpkg -i ../linux-headers-3.18.20-rtai_3.18.20-rtai-1_i386.deb
 
